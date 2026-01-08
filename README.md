@@ -1,4 +1,4 @@
-#MixLoRA: Mixture-of-Experts LoRA for Llama-3.2 
+# MixLoRA: Mixture-of-Experts LoRA for Llama-3.2 
 
 Ujjwal Krishna (Roll no: 240102266)
 
