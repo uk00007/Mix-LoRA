@@ -4,6 +4,8 @@ Ujjwal Krishna (Roll no: 240102266)
 
 Paras Jindal (Roll no: 240104072)
 
+# 
+
 
 Unlike standard LoRA, which applies a single low-rank adapter to a layer, this project replaces the Feed-Forward Networks (MLPs) with a routing mechanism that dynamically selects specific LoRA adapters ("experts") for each token, increasing model capacity without significantly increasing inference cost.
 
