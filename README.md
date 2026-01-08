@@ -144,7 +144,7 @@ prompt = "I'm not feeling good. What should I do?"
 
 * **VRAM Usage:** While efficient, loading 8 experts per layer increases memory usage compared to standard LoRA.
 * **Inference Latency:** The routing mechanism adds a small computational overhead during generation.
-* **Generation Quality:** As seen in the training logs, the loss curve fluctuates significantly. Hyperparameter tuning (adjusting `aux_loss_weight` or Learning Rate) is recommended for production use.
+* **Generation Quality:** As seen in the training logs, the loss curve fluctuates significantly.
 
 ---
 
@@ -156,6 +156,4 @@ prompt = "I'm not feeling good. What should I do?"
 
 ---
 
-### A small next step for you
 
-The training logs in your notebook show the loss actually **increasing** towards the end (from ~2.7 to ~5.2) and the text generation is a bit incoherent. Would you like me to analyze the **Auxiliary Loss** implementation in your code? I suspect the `load_balance_loss` calculation might be fighting against the main objective too hard.
