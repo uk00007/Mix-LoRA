@@ -1,5 +1,5 @@
-Project Report: MixLoRA Implementation for Mental Health LLM
-Date: January 08, 2026 Subject: Fine-tuning Llama-3.2 using Mixture-of-Experts LoRA (MixLoRA)
+**Project Report: MixLoRA Implementation for Mental Health LLM
+Date: January 08, 2026 Subject: Fine-tuning Llama-3.2 using Mixture-of-Experts LoRA (MixLoRA)**
 
 1. Executive Summary
 This project explores the implementation of MixLoRA (Mixture-of-LoRA-Experts), a parameter-efficient fine-tuning technique applied to the Llama-3.2-1B-Instruct Large Language Model. The objective was to enhance the model's capability in mental health counseling scenarios by replacing standard Feed-Forward Networks (FFNs) with a dynamic routing mechanism that selects specialized LoRA experts per token.
