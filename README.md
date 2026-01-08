@@ -1,7 +1,7 @@
-# MixLoRA: Mixture-of-Experts LoRA for Llama-3.2
+MixLoRA: Mixture-of-Experts LoRA for Llama-3.2
+Ujjwal Krishna (Roll no: 240102266)
+Paras Jindal (Roll no: 240104072)
 
-# Ujjwal Krishna (Roll no: 240102266)
-# Paras Jindal (Roll no: 240104072)
 This project implements a **MixLoRA (Mixture-of-LoRA-Experts)** architecture from scratch and injects it into the `meta-llama/Llama-3.2-1B-Instruct` model.
 
 Unlike standard LoRA, which applies a single low-rank adapter to a layer, this project replaces the Feed-Forward Networks (MLPs) with a routing mechanism that dynamically selects specific LoRA adapters ("experts") for each token, increasing model capacity without significantly increasing inference cost.
