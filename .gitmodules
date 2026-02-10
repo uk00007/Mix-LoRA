@@ -1,0 +1,3 @@
+[submodule "MoE-PEFT"]
+	path = MoE-PEFT
+	url = https://github.com/TUDB-Labs/MoE-PEFT.git
